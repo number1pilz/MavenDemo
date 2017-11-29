@@ -46,7 +46,7 @@ public class CalculatorTest {
         int zahl1 = 0;
         int zahl2 = 0;
         Calculator instance = new Calculator();
-        int expResult = 0;
+        int expResult = 1;
         int result = instance.calculate(zahl1, zahl2);
         assertEquals(expResult, result);
        if (result != expResult){
